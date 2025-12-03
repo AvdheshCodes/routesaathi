@@ -81,8 +81,8 @@ flowchart TD
 | Layer        | Technology                                     |
 |--------------|------------------------------------------------|
 | Frontend     | HTML5, CSS3 (custom design), JavaScript (ES6)  |
-| Backend      | _Placeholder: Node.js/Express or similar_      |
-| Database     | _Placeholder: MongoDB/PostgreSQL_              |
+| Backend      | FastAPI on  python                             |
+| Database     | PostgreSQL                                     |
 | Tools        | Git, GitHub, VSCode, LocalStorage (browser),   |
 |              | [Mermaid.js](https://mermaid-js.github.io/) for diagrams |
 
