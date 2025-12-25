@@ -81,8 +81,8 @@ flowchart TD
 | Layer        | Technology                                     |
 |--------------|------------------------------------------------|
 | Frontend     | HTML5, CSS3 (custom design), JavaScript (ES6)  |
-| Backend      | _Placeholder: Node.js/Express or similar_      |
-| Database     | _Placeholder: MongoDB/PostgreSQL_              |
+| Backend      | FastAPI on  python                             |
+| Database     | PostgreSQL                                     |
 | Tools        | Git, GitHub, VSCode, LocalStorage (browser),   |
 |              | [Mermaid.js](https://mermaid-js.github.io/) for diagrams |
 
@@ -185,21 +185,25 @@ Place the required logo images in `assets/` as described in the documentation.
 
 ---
 
-## 🔗 API / Future Backend
+## 🔗 API 
 
-_Planned API endpoints (not implemented yet)_
+* **Auth**
 
-- **Auth API:**  
-  `/api/auth/login` — User authentication, session management
+  * POST /api/auth/login
+* **Dashboard & Tracking**
 
-- **Communication API:**  
-  `/api/messages` — Chat, broadcast, issue reporting
+  * GET /api/dashboard/stats
+  * GET /api/buses
+* **Communication**
 
-- **ML API:**  
-  `/api/ai/recommendations` — Fetch AI/ML route suggestions
+  * GET /api/communication/messages
+  * POST /api/messages
+  * POST /api/broadcast
+* **AI**
 
-- **Tracking API:**  
-  `/api/buses` — GPS/live status, fleet monitoring
+  * GET /api/ai/recommendations
+  * POST /api/ai/apply
+
 
 ---
 
@@ -234,7 +238,7 @@ _Planned API endpoints (not implemented yet)_
 
 ![Made with HTML/CSS/JS](https://img.shields.io/badge/Made%20with-HTML%2FCSS%2FJS-blue)
 ![Status: In Development](https://img.shields.io/badge/status-in--development-orange)
-![GitHub stars](https://img.shields.io/github/stars/yourusername/routesaathi?style=social)
+![GitHub stars](https://img.shields.io/github/stars/irx358/routesaathi?style=social)
 
 ---
 
@@ -244,7 +248,7 @@ _Planned API endpoints (not implemented yet)_
    avdhesh.ghansela@gmail.com
 
 - **Credits:**  
-  - BMTC IT Team, Government of Karnataka  
+  - BMTC IT Team
   - Contributors & volunteers
 
 - **Acknowledgments:**  
@@ -252,4 +256,4 @@ _Planned API endpoints (not implemented yet)_
 
 ---
 
-**Built for Mintathon Hackathon Project | 2025**
+**Built for Mintathon Project by IIT Madaras | 2025**
